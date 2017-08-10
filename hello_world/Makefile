@@ -1,5 +1,5 @@
 # Main settings includes
-include	../settings.mk
+include	./common/settings.mk
 
 # Individual project settings (Optional)
 #BOOT		= new
@@ -15,4 +15,4 @@ MODULES	= driver user
 LIBS	= c gcc hal phy pp net80211 lwip wpa main crypto
 
 # Root includes
-include	../common_nonos.mk
+include	./common/common_nonos.mk
