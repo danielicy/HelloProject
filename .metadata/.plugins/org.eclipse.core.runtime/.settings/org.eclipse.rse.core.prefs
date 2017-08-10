@@ -1,3 +1,4 @@
 activeuserprofiles=Main-PC;Team
 eclipse.preferences.version=1
 org.eclipse.rse.systemtype.local.systemType.defaultUserId=Danieli
+useridperkey=Main-PC.Local\=Danieli;
