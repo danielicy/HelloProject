@@ -9,42 +9,15 @@
 #include <gpio.h>
 #include "driver/uart.h"
 
-#define DELAY 10000 /* milliseconds */
+#define DELAY 1000 /* milliseconds */
 
 LOCAL os_timer_t hello_timer;
 extern int ets_uart_printf(const char *fmt, ...);
 
-/******************************************************************************
- *						Wifi Section
+/**********************
  *
- ******************************************************************************/
-
-#pragma region Globals
-const char* ssid = "TrojanVirus";                           // WIFI network name
-const char* password = "";                       // WIFI network password
-uint8_t connection_state = 0;                    // Connected to WIFI or not
-uint16_t reconnect_interval = 10000;			// If not connected wait time to try again
-
-#pragma endregion Globals
-
-void wifiConnectCb(uint8_t status)
-{
-	/*if(status == STATION_GOT_IP){
-		MQTT_Connect(&mqttClient);
-	} else {
-		MQTT_Disconnect(&mqttClient);
-	}*/
-
-	ets_uart_printf("Wifi ConnectedSuccesfully World!\r\n");
-}
-
-
-
-LOCAL void ICACHE_FLASH_ATTR start_wifi()
-{
-	WIFI_Connect(ssid,password,wifiConnectCb);
-}
-
+ *
+ **************/
 
 LOCAL void ICACHE_FLASH_ATTR hello_cb(void *arg)
 {
@@ -108,7 +81,7 @@ void ICACHE_FLASH_ATTR user_init(void)
 	// Configure the UART
 		uart_init(BIT_RATE_115200, BIT_RATE_115200);
 
-		start_wifi();
+
 
 	// Set up a timer to send the message
 	// os_timer_disarm(ETSTimer *ptimer)

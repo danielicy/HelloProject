@@ -82,3 +82,6 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.cdt.managedbuilder.core 2 0 2017-08-11 08:18:38.069
 !MESSAGE Build Artifact is missing in project 'hello_world' configuration 'Default'
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 2 0 2017-08-11 08:40:59.121
+!MESSAGE Build Artifact is missing in project 'hello_world' configuration 'Default'
