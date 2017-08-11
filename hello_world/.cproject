@@ -18,15 +18,30 @@
 							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.PE" id="cdt.managedbuild.target.gnu.platform.mingw.base.1967273719" name="Debug Platform" osList="win32" superClass="cdt.managedbuild.target.gnu.platform.mingw.base"/>
 							<builder buildPath="${workspace_loc:/hello_world}/Default" id="cdt.managedbuild.tool.gnu.builder.mingw.base.1546108172" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="CDT Internal Builder" superClass="cdt.managedbuild.tool.gnu.builder.mingw.base"/>
 							<tool id="cdt.managedbuild.tool.gnu.assembler.mingw.base.1671600442" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.mingw.base">
+								<option id="gnu.both.asm.option.include.paths.1316586057" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;C:\Espressif\examples\HelloProject\sdks\ESP8266_SDK\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\Espressif\examples\HelloProject\sdks\WifiMaster\libraries\ESP8266WiFi\src&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\Espressif\examples\HelloProject\sdks\WifiMaster\libraries\ESP8266WiFi\src\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\Espressif\xtensa-lx106-elf\xtensa-lx106-elf\include&quot;"/>
+								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1755298351" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.archiver.mingw.base.1478230210" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.mingw.base"/>
 							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.base.2144022830" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.base">
+								<option id="gnu.cpp.compiler.option.include.paths.1480323866" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;C:\Espressif\examples\HelloProject\sdks\ESP8266_SDK\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\Espressif\examples\HelloProject\sdks\WifiMaster\libraries\ESP8266WiFi\src&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\Espressif\examples\HelloProject\sdks\WifiMaster\libraries\ESP8266WiFi\src\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\Espressif\xtensa-lx106-elf\xtensa-lx106-elf\include&quot;"/>
+								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1706199407" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.653408770" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.base">
-								<option id="gnu.c.compiler.option.include.paths.98271630" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
-									<listOptionValue builtIn="false" value="&quot;C:\Espressif\ESP8266_SDK\include&quot;"/>
+								<option id="gnu.c.compiler.option.include.paths.98271630" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;C:\Espressif\examples\HelloProject\sdks\ESP8266_SDK\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\Espressif\examples\HelloProject\sdks\WifiMaster\libraries\ESP8266WiFi\src&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\Espressif\examples\HelloProject\sdks\WifiMaster\libraries\ESP8266WiFi\src\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\Espressif\xtensa-lx106-elf\xtensa-lx106-elf\include&quot;"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.586604561" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
 							</tool>
