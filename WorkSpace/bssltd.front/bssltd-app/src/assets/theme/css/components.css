@@ -1,0 +1,81 @@
+button {
+    color:white;
+    background-color: #292D3E;
+    border: 1px solid #1D9AF2;
+    border-radius: 4px;
+    /*padding: 0 35px;*/
+    padding-left: 5%;
+    padding-right: 5%;
+    cursor: pointer;
+   
+    font-size:14px;
+    transition: all 0.2s ease-in-out;
+     
+    }
+    button:hover {
+    transform: scale(1.1);
+    }
+
+    li {
+        
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+       
+        margin: 0 10px
+       
+        }
+        li:hover {
+        transform: scale(1.1);
+        }
+
+        
+   input{   
+    background-color: #3d3d5c;     
+     color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    min-width: 120px;
+     width: 140px;
+     text-align: center;
+     display: flex;
+     flex: auto;
+     align-items: center;
+    
+ }
+
+ .card {
+    display: block;
+    background-color: rgba(255, 255, 255, .8);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .24);
+    border-radius: 2px;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .card:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .19), 0 6px 6px rgba(0, 0, 0, .23);
+  }
+
+  body {
+    
+    color: black;
+    font-weight: 400;
+  }
+  
+  .navbar {
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+  }
+  
+  .app main, .app footer {
+    padding-left: 1rem;
+  }
+  
+  .footer {
+    background: #3F729B;
+    padding: 2em;
+  }
+
+  
+  

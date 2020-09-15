@@ -1,0 +1,37 @@
+
+
+<div class="customer" *ngIf="customers">
+ <h3>Customers</h3>
+  <div class="divTable"  *ngFor="let customer of customers">
+    <div class="divRow">
+    <div class="namecell">{{customer.CustomerId}} {{customer.Name}} </div>
+     <div class="addresscell">{{customer.Street}} {{customer.City}}</div>
+    </div>
+   </div>
+   <br/>
+   <br/>
+   
+    
+  </div>
+<br/>
+  <p style="color: aliceblue;">create new Customer</p>
+<div class="newcustomer">
+    <form [formGroup]="contactForm" (ngSubmit)="onSubmit()" novalidate>
+        <div formGroupName="customer" novalidate>
+            <label for="name">Full Name</label>
+          <input id="name" formControlName="name" type="text" /> 
+          <label for="address">Address</label>
+          <input id="address" formControlName="street" type="text" />
+          <label id="city">City</label> 
+          <input id="city" formControlName="city" type="text" /> 
+           
+        </div>
+         <br/>
+        
+        <button type="submit" [disabled]="contactForm.pristine">Create</button>
+        <button type="reset" (click)="revert()" [disabled]="contactForm.pristine">
+          Revert
+        </button>
+      </form>
+  </div>
+  

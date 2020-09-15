@@ -1,0 +1,25 @@
+.app main, .app footer {
+    padding-left: 1rem;
+    background-color: #061b2c;
+  }
+  
+  .footer {
+    background: #061b2c;
+    padding: 10px;
+  }
+  
+  .app{
+    background-color: #061b2c;
+    border: 1px solid #1D9AF2;
+    height: 100%;
+  }
+  
+  #mainNavBar{
+    display: flex;
+    flex: inherit;
+  }
+   
+     
+  
+  
+  

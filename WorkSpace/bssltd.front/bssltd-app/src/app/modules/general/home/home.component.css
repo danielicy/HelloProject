@@ -1,0 +1,39 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .map{
+    width: 40%;
+    margin: auto;
+  }
+
+.graph{
+  width: 50%;
+   margin: 2%;
+}
+
+  .images{
+    align-items: center;
+   padding: 5% 10%;
+    margin: auto;
+    width: 80%;
+  }
+
+  h3, h2 ,h1{
+    text-align: center;
+    color: white;
+    margin: auto;
+  }
+
+  h2{
+    font-size: 55px;
+  }
+
+  p{
+    float: right;
+    width: 50%;
+    color: white;
+  }

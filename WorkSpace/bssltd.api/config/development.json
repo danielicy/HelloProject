@@ -1,0 +1,10 @@
+{
+    "name":"BssLtd API -Development",
+    "sql":{ 
+        "user":"danieli",       
+        "server": "127.0.0.1", 
+       "database":"bssltdDB" ,
+       "password":"Aa123456"
+        
+    }
+}
